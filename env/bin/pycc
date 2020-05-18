@@ -1,0 +1,3 @@
+#!/home/ojasvi/Documents/Final_year_project/env/bin/python
+from numba.pycc import main
+main()
