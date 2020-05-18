@@ -1,10 +1,8 @@
-~~ Markdown supports github flavored syntax~~
-## The Project is basically for buildiing a Efficient and Noise tolerant algorithm for identifying objects 
-## in defined space with help of a webcam and can be extended to an external camera.
-## For Better results, Let the motion detector run for sometime before adapting to it's surroundings
+## The Project is basically for buildiing a Efficient and Noise tolerant algorithm for identifying objects in defined space with help of a webcam and can be extended to an external camera.For Better results, Let the motion detector run for sometime before adapting to it's surroundings.
+
 ## Step-1 : Build the project
 
-Tools to compile the c files :
+###Tools to compile the c files :
 1. gcc
 2. make
 3. pkgconfig
