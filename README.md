@@ -25,16 +25,16 @@ To build, you can use **setup.py** or directly **make** in Bash:
 
 ## Detector usage and parameters
 
-* <bg_subs_scale_percent>: Scaling initial frame before movement detection occurs (default: *1/4*);
-* <bg_history>: Length of background accumulator ring buffer (default: *15*);
-* <bg_history_collection_period_max>: Defines how often the background ring buffer is updated with frames from movement
+* [`bg_subs_scale_percent`]: Scaling initial frame before movement detection occurs (default: *1/4*);
+* [`bg_history`]: Length of background accumulator ring buffer (default: *15*);
+* [`bg_history_collection_period_max`]: Defines how often the background ring buffer is updated with frames from movement
    (default:*1* ; every frame);
-* <movement_frames_history>: how much frames to keep in movement accumulator ring buffer (default: *5*);
-* <brightness_discard_level>: threshold which is used to detect movement from the noise (default: *20*);
-* <pixel_compression_ratio>: how much to compress the initial video for boxes search (default: *0.1*), means that every
+* [`movement_frames_history`]: how much frames to keep in movement accumulator ring buffer (default: *5*);
+* [`brightness_discard_level`]: threshold which is used to detect movement from the noise (default: *20*);
+* [`pixel_compression_ratio`]: how much to compress the initial video for boxes search (default: *0.1*), means that every
    *10x10 px* of initial frame will be resized to *1x1 px* of detection frame;
-* <group_boxes>: group overlapping boxes into a single one or just keep them as they are (default: **True**);
-* <expansion_step>: how big is expansion algorithm step when it searches for boxes, lower steps lead to smaller performance
+* [`group_boxes`]: group overlapping boxes into a single one or just keep them as they are (default: **True**);
+* [`expansion_step`]: how big is expansion algorithm step when it searches for boxes, lower steps lead to smaller performance
    and close objects are detected as separate, bigger step leads to faster algorithm performance and close objects can be
    detected as a single one (default: *1*).
 
