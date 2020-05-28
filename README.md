@@ -21,7 +21,7 @@ To build, you can use **setup.py** or directly **make** in Bash:
 
 ## Step-3 : Run the motion_capture.py for motion detection
 
-* `./motion.py` or `python3 motion_capture.py`
+* `./motion_capture.py` or `python3 motion_capture.py`
 
 ## Detector usage and parameters
 
